@@ -1,0 +1,86 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://www.bjerckemedia.no/templates
+Description: Theme built on bootstrap example page.
+Author: Marius Bjercke
+Author URI: http://www.bjerckemedia.no
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+/* Space out content a bit */
+@import url('bootstrap/css/bootstrap.min.css');
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 80px;
+    background-color: #fbf7ee;
+    border-top:0px solid #cccccc;
+}
+
+.container-full {
+    background-color: #fbf7ee;
+}
+
+.header {
+    height:140px;
+}
+
+.nav {
+    padding-top:76px;
+}
+
+.current_page_item {
+    background-color: #f7941e;
+    border-radius:4px;
+    color: #fff !important;
+}
+
+.nav-pills>li>a {
+    font-size:1.2em;
+    color:#0f0f0f;
+}
+
+.nav-pills>.current_page_item>a {
+    font-size:1.2em;
+    color:#fff;
+}
+
+.nav-pills>li>a:hover {
+    background-color: #f7941e;
+    border-radius:4px;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-image: url(img/banner.png);
+    background-size: cover;
+    color:#ffffff;
+}
+
+.news {
+    background-image: url(img/banner_news.png);
+    background-size: cover;
+}
+
+.footer-margin {
+    margin-top:20px;
+}
+
+.navbar-brand img {
+    position:absolute;
+}
