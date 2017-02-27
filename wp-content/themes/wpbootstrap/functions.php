@@ -9,3 +9,27 @@ function wpbootstrap_scripts_with_jquery()
 }
 add_theme_support( 'custom-logo' );
 ?>
+<?php
+    /**
+    * Make Header Shrink on Page Scroll
+    **/
+
+    add_action ('wp_footer','vr_shrink_head',1);
+    function vr_shrink_head() {
+    ?>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
+                    $('header').addClass('shrink');
+                }
+                else{
+                    $('header').removeClass('shrink');
+                }
+            });
+        });
+    </script>
+
+<?php
+}

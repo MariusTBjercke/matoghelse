@@ -9,9 +9,10 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Narrow Jumbotron Template for Bootstrap</title>
+    <title>Landslaget for mat og helse i skolen</title>
 
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -24,32 +25,41 @@
 </head>
 <body>
 
-<div class="container-full">
+<header>
     <div class="container">
-    <div class="header clearfix">
-        <nav>
-            <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="<?php echo site_url(); ?>">
-                    <?php
-                    $custom_logo_id = get_theme_mod( 'custom_logo' );
-                    $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-                    echo '<img src="'.$image[0].'." alt="Landslaget for mat og helse i skolen" width="130">';
-                    ?>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav nav-pills pull-right navbar-nav">
-                <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
-            </ul>
-            </div>
-            </div>
-        </nav>
+        <div class="header clearfix">
+            <nav>
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <div class="navbar-toggle">
+                            <ul class="nav-pills nav-nocollapse">
+                            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+                            </ul>
+                        </div>
+                        <a href="<?php echo site_url(); ?>">
+                            <div class="logo"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <div class="pull-right">
+                            <div class="social">
+                                <div class="facebook icon"></div>
+                                <div class="twitter icon"></div>
+                                <div class="linkedin icon"></div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-pills pull-right navbar-nav">
+                            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </div>
+</header>
+
+<div class="jumbotron">
+    <div class="container">
+        <h1><?php echo apply_filters( 'the_title', get_the_title( get_option( 'page_for_posts' ) ) ); ?></h1>
     </div>
 </div>
