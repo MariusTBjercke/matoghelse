@@ -30,36 +30,47 @@
         <div class="header clearfix">
             <nav>
                 <div class="container-fluid">
-                    <div class="navbar-header">
-                        <div class="navbar-toggle">
-                            <ul class="nav-pills nav-nocollapse">
-                            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+                    <div class="navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle dropbtn" data-toggle="collapse" onclick="openMenu()" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <ul>
+                                        <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+                                    </ul>
+                                </div>
+                                <a href="<?php echo site_url(); ?>">
+                                <div class="logo"></div>
+                                </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <div class="pull-right">
+                                <div class="social">
+                                    <div class="facebook icon"></div>
+                                    <div class="twitter icon"></div>
+                                    <div class="linkedin icon"></div>
+                                </div>
+                            </div>
+                            <ul class="nav nav-pills pull-right navbar-nav">
+                                <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
                             </ul>
                         </div>
-                        <a href="<?php echo site_url(); ?>">
-                            <div class="logo"></div>
-                        </a>
                     </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <div class="pull-right">
-                            <div class="social">
-                                <div class="facebook icon"></div>
-                                <div class="twitter icon"></div>
-                                <div class="linkedin icon"></div>
-                            </div>
-                        </div>
-                        <ul class="nav nav-pills pull-right navbar-nav">
-                            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
-                        </ul>
-                    </div>
-                </div>
             </nav>
         </div>
     </div>
 </header>
 
 <div class="jumbotron">
-    <div class="container">
-        <h1><?php echo apply_filters( 'the_title', get_the_title( get_option( 'page_for_posts' ) ) ); ?></h1>
+    <div class="black_opa_bar">
+        <div class="container">
+            <h1><?php echo apply_filters( 'the_title', get_the_title( get_option( 'page_for_posts' ) ) ); ?></h1>
+        </div>
     </div>
 </div>
+
+<div class="main_container">
