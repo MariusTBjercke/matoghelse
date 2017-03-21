@@ -133,6 +133,21 @@ class SnS_Settings_Page
 				'legend' => __( 'Shortcode Widgets', 'scripts-n-styles' ),
 				'description' => __( '<span class="description" style="max-width: 500px; display: inline-block;">This enables Hoops shortcodes to be used via a "Hoops" Text Widget.</span>', 'scripts-n-styles' )
 			) );
+		add_settings_field(
+			'delete_data_uninstall',
+			__( '<strong>Delete Data When Uninstalling</strong>: ', 'scripts-n-styles' ),
+			array( 'SnS_Form', 'radio' ),
+			SnS_Admin::MENU_SLUG,
+			'settings',
+			array(
+				'label_for' => 'delete_data_uninstall',
+				'setting' => 'SnS_options',
+				'choices' => array( 'yes', 'no' ),
+				'layout' => 'horizontal',
+				'default' => 'no',
+				'legend' => __( 'Delete Data When Uninstalling', 'scripts-n-styles' ),
+				'description' => __( '<span class="description" style="max-width: 500px; display: inline-block;">Should the plugin clean up after itself and delete all of its saved data.</span>', 'scripts-n-styles' )
+			) );
 	}
 
 	/**

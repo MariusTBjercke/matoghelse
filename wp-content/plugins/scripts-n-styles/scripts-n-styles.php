@@ -5,13 +5,13 @@ Plugin URI: http://www.unfocus.com/projects/scripts-n-styles/
 Description: Allows WordPress admin users the ability to add custom CSS and JavaScript directly to individual Post, Pages or custom post types.
 Author: unFocus Projects
 Author URI: http://www.unfocus.com/
-Version: 3.3.1
+Version: 3.4.0
 License: GPLv3 or later
 Text Domain: scripts-n-styles
 */
 
 /*  The Scripts n Styles WordPress Plugin
-	Copyright (c) 2010-2013  Kenneth Newman  <http://www.unfocus.com/>
+	Copyright (c) 2010-2017  Kenneth Newman  <http://www.unfocus.com/>
 	Copyright (c) 2012  Kevin Newman  <http://www.unfocus.com/>
 	Copyright (c) 2012-2013  adcSTUDIO LLC <http://www.adcstudio.com/>
 
@@ -30,6 +30,16 @@ Text Domain: scripts-n-styles
 
 	This file incorporates work covered by other licenses and permissions.
 */
+
+if ( version_compare( PHP_VERSION, '5.4', '<' ) ) :
+	function sns_disable_update( $value ) {
+		if( isset( $value->response[plugin_basename( __FILE__ )] ) ) {
+			unset( $value->response[plugin_basename( __FILE__ )] );
+		}
+		return $value;
+	}
+	add_filter( 'site_transient_update_plugins', 'sns_disable_update' );
+endif;
 
 /**
  * Scripts n Styles
@@ -50,7 +60,7 @@ Text Domain: scripts-n-styles
  * @link http://www.unfocus.com/projects/scripts-n-styles/ Plugin URI
  * @author unFocus Projects
  * @link http://www.unfocus.com/ Author URI
- * @version 3.3
+ * @version 3.4.0
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  * @copyright Copyright (c) 2010 - 2013, Kenneth Newman
  * @copyright Copyright (c) 2012, Kevin Newman
@@ -68,7 +78,7 @@ class Scripts_n_Styles
 	/**#@+
 	 * @static
 	 */
-	const VERSION = '3.3';
+	const VERSION = '3.4.0';
 	static $file = __FILE__;
 	static $cm_themes = array( 'default', '3024-day', '3024-night', 'ambiance',
 		'base16-dark', 'base16-light',
