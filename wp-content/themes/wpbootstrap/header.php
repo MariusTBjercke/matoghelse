@@ -29,6 +29,7 @@
     <div class="container">
         <div class="header clearfix">
             <nav>
+                <div class="search_bar"><?php get_search_form(); ?></div>
                 <div class="container-fluid">
                     <div class="navbar-default">
                         <div class="navbar-header">
@@ -38,23 +39,11 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                                <div id="myDropdown" class="dropdown-content">
-                                    <ul>
-                                        <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
-                                    </ul>
-                                </div>
                                 <a href="<?php echo site_url(); ?>">
                                 <div class="logo"></div>
                                 </a>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
-                            <div class="pull-right">
-                                <div class="social">
-                                    <div class="facebook icon"></div>
-                                    <div class="twitter icon"></div>
-                                    <div class="linkedin icon"></div>
-                                </div>
-                            </div>
                             <ul class="nav nav-pills pull-right navbar-nav">
                                 <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
                             </ul>
@@ -62,6 +51,11 @@
                     </div>
             </nav>
         </div>
+    </div>
+    <div id="myDropdown" class="dropdown-content">
+        <ul>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+        </ul>
     </div>
 </header>
 

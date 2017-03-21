@@ -1,15 +1,33 @@
 <?php
 get_header();
 ?>
-
-            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-                <?php the_content(); ?>
-
-            <?php endwhile; else: ?>
-                <p><?php _e('Sorry, this page does not exist.'); ?></p>
-            <?php endif; ?>
-
+    <?php
+    if (get_the_title() === 'Nyheter') {
+        include('nyheter.php');
+    } else if (get_the_title() === 'Om oss') { ?>
+        <div class="container">
+            <div class="row">
+            <?php
+            $content = apply_filters('the_content', $post->post_content);
+            echo $content;
+            include('omoss.php');
+            ?>
+        </div>
+        </div>
+        <?php
+    } else {
+        ?>
+        <div class="container">
+            <div class="row">
+            <?php
+            $content = apply_filters('the_content', $post->post_content);
+            echo $content;
+            ?>
+            </div>
+        </div>
+        <?php
+    }
+    ?>
 <?php
 get_footer();
 ?>
