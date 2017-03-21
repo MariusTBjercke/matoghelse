@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91fa34d-7121-42c8-b63c-28906b0aa815" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/omoss.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/strict.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/LICENSE.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-cli.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-cli.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/README.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/css/code-editor.css" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/css/code-editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/css/meta-box.css" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/css/meta-box.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/css/options-styles.css" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/css/options-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/includes/class-sns-settings-page.php" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/includes/class-sns-settings-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/scripts-n-styles.php" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/scripts-n-styles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/uninstall.php" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/uninstall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/chosen/chosen.jquery.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/chosen/chosen.jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/chosen/chosen.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/chosen/chosen.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/codemirror/codemirror-compressed.css" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/codemirror/codemirror-compressed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/codemirror/codemirror-compressed.js" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/codemirror/codemirror-compressed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/coffee-script.js" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/coffee-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/less.js" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/less.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/less.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/scripts-n-styles/vendor/less.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.html" afterPath="$PROJECT_DIR$/readme.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -181,6 +152,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/omoss.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php" />
+        <option value="$PROJECT_DIR$/readme.html" />
       </list>
     </option>
   </component>
@@ -327,12 +299,20 @@
       <workItem from="1488561090399" duration="1891000" />
       <workItem from="1488710837590" duration="3913000" />
       <workItem from="1489914363709" duration="12374000" />
-      <workItem from="1490029180239" duration="4533000" />
+      <workItem from="1490029180239" duration="4702000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated GIT">
+      <created>1490082469051</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490082469051</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79910000" />
+    <option name="totallyTimeSpent" value="80079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -363,6 +343,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated GIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated GIT" />
+  </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs</wordpressPath>
   </component>
@@ -371,14 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/bootstrap/css/bootstrap.min.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -714,6 +690,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
           <folding />
         </state>
       </provider>
