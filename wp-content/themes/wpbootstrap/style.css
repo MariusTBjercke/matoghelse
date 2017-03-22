@@ -28,7 +28,7 @@ body {
 }
 
 .footer {
-    height: 265px;
+    height: 225px;
     width: 100%;
     background-color: #f7941e;
     color: #000000;
@@ -39,6 +39,7 @@ body {
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.4;
+    color: #262626;
 }
 
 .bottom_footer_bar {
