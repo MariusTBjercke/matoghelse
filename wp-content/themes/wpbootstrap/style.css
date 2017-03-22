@@ -27,6 +27,12 @@ body {
     padding: 10px;
 }
 
+input[type=submit] {
+    background-color: #ffffff;
+    color: #00000!important;
+    min-width: 50px;
+}
+
 .footer {
     height: 225px;
     width: 100%;
@@ -284,7 +290,7 @@ header.shrink .social {
 
 .search_bar {
     position: absolute;
-    right: 45px;
+    right: 25px;
     top: 25px;
     z-index: 100;
 }

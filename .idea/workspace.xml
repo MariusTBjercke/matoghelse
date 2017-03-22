@@ -4,6 +4,7 @@
     <list default="true" id="c91fa34d-7121-42c8-b63c-28906b0aa815" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/general-template.php" afterPath="$PROJECT_DIR$/wp-includes/general-template.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,9 +22,44 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="164">
+              <caret line="292" column="13" lean-forward="false" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nb_NO.po" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/languages/nb_NO.po">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="6040" column="18" lean-forward="false" selection-start-line="6040" selection-start-column="18" selection-end-line="6040" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="230" column="21" lean-forward="false" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+              <folding>
+                <marker date="1490200158062" expanded="true" signature="28744:28757" ph="..." />
+                <marker date="1490200158062" expanded="true" signature="55385:55567" ph="SELECT YEAR(... " />
+                <marker date="1490200158062" expanded="true" signature="56459:56594" ph="SELECT YEAR(... " />
+                <marker date="1490200158062" expanded="true" signature="57359:57603" ph="SELECT YEAR(... " />
+                <marker date="1490200158062" expanded="true" signature="58574:58812" ph="SELECT DISTI... " />
+                <marker date="1490200158062" expanded="true" signature="60216:60274" ph="SELECT * FRO... wp_posts" />
+                <marker date="1490200158062" expanded="true" signature="62577:62672" ph="SELECT 1 as wp_posts" />
+                <marker date="1490200158062" expanded="true" signature="63910:64124" ph="SELECT MONTH... " />
+                <marker date="1490200158062" expanded="true" signature="64153:64384" ph="SELECT MONTH... " />
+                <marker date="1490200158062" expanded="true" signature="64560:64701" ph="..." />
+                <marker date="1490200158062" expanded="true" signature="64695:64701" ph="..." />
+                <marker date="1490200158062" expanded="true" signature="65146:65152" ph="..." />
+                <marker date="1490200158062" expanded="true" signature="65955:65961" ph="..." />
+                <marker date="1490200158062" expanded="true" signature="66054:66289" ph="SELECT DISTI... wp_posts" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>180</find>
       <find>navbar-toggle</find>
       <find>h1</find>
       <find>font-size</find>
@@ -68,6 +103,7 @@
       <find>footer-bo</find>
       <find>footer-bottom</find>
       <find>jumbo</find>
+      <find>søk etter</find>
       <find>footer</find>
     </findStrings>
   </component>
@@ -105,6 +141,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/wp-content/languages/nb_NO.po" />
+        <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" />
       </list>
     </option>
@@ -310,7 +348,7 @@
       <workItem from="1490127867988" duration="228000" />
       <workItem from="1490128765890" duration="2508000" />
       <workItem from="1490168546811" duration="681000" />
-      <workItem from="1490191228891" duration="5281000" />
+      <workItem from="1490191228891" duration="5918000" />
     </task>
     <task id="LOCAL-00001" summary="Updated GIT">
       <created>1490082469051</created>
@@ -347,11 +385,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490198637192</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New footer height and h2 color">
+      <created>1490199705053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490199705053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89850000" />
+    <option name="totallyTimeSpent" value="90487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
@@ -361,7 +406,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18104668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18104668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -372,7 +418,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -389,7 +434,8 @@
     <MESSAGE value="Updated files" />
     <MESSAGE value="Updated files to work on subdomain" />
     <MESSAGE value="New jumbotron height" />
-    <option name="LAST_COMMIT_MESSAGE" value="New jumbotron height" />
+    <MESSAGE value="New footer height and h2 color" />
+    <option name="LAST_COMMIT_MESSAGE" value="New footer height and h2 color" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs</wordpressPath>
@@ -399,20 +445,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/bckp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40392">
-          <caret line="2376" column="10" lean-forward="false" selection-start-line="2376" selection-start-column="10" selection-end-line="2376" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21233">
@@ -713,10 +745,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/nb_NO.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="6040" column="18" lean-forward="false" selection-start-line="6040" selection-start-column="18" selection-end-line="6040" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="230" column="21" lean-forward="false" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+          <folding>
+            <marker date="1490200158062" expanded="true" signature="28744:28757" ph="..." />
+            <marker date="1490200158062" expanded="true" signature="55385:55567" ph="SELECT YEAR(... " />
+            <marker date="1490200158062" expanded="true" signature="56459:56594" ph="SELECT YEAR(... " />
+            <marker date="1490200158062" expanded="true" signature="57359:57603" ph="SELECT YEAR(... " />
+            <marker date="1490200158062" expanded="true" signature="58574:58812" ph="SELECT DISTI... " />
+            <marker date="1490200158062" expanded="true" signature="60216:60274" ph="SELECT * FRO... wp_posts" />
+            <marker date="1490200158062" expanded="true" signature="62577:62672" ph="SELECT 1 as wp_posts" />
+            <marker date="1490200158062" expanded="true" signature="63910:64124" ph="SELECT MONTH... " />
+            <marker date="1490200158062" expanded="true" signature="64153:64384" ph="SELECT MONTH... " />
+            <marker date="1490200158062" expanded="true" signature="64560:64701" ph="..." />
+            <marker date="1490200158062" expanded="true" signature="64695:64701" ph="..." />
+            <marker date="1490200158062" expanded="true" signature="65146:65152" ph="..." />
+            <marker date="1490200158062" expanded="true" signature="65955:65961" ph="..." />
+            <marker date="1490200158062" expanded="true" signature="66054:66289" ph="SELECT DISTI... wp_posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="164">
+          <caret line="292" column="13" lean-forward="false" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
           <folding />
         </state>
       </provider>
