@@ -22,8 +22,13 @@ html {
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.row {
+    padding: 10px;
+}
+
 .footer {
-    height: 258px;
+    height: 265px;
     width: 100%;
     background-color: #f7941e;
     color: #000000;
@@ -66,6 +71,17 @@ body {
 
 .footer .copyright2 a {
     color: #f7941e;
+}
+
+.footer-bottom {
+    padding-bottom: 0px;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 0px;
+}
+
+.navbar-default {
+    background: none !important;
 }
 
 header {

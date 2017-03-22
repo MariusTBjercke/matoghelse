@@ -17,10 +17,20 @@
                 </div>
             </div>
         </div>
-        <div class="copyright1">Drevet av Landslaget for mat og helse</div>
-        <div class="copyright2">Designet av <a href="mailto:marius@bjerckemedia.no">Marius Bjercke</a></div>
     </div>
 </footer>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pull-left">
+                <div class="copyright1">Drevet av Landslaget for mat og helse</div>
+            </div>
+            <div class="col-md-6 pull-right">
+                <div class="copyright2 text-right">Designet av <a href="mailto:marius@bjerckemedia.no">Marius Bjercke</a></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php wp_footer(); ?>
 

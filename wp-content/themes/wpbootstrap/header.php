@@ -29,7 +29,6 @@
     <div class="container">
         <div class="header clearfix">
             <nav>
-                <div class="search_bar"><?php get_search_form(); ?></div>
                 <div class="container-fluid">
                     <div class="navbar-default">
                         <div class="navbar-header">
@@ -44,6 +43,7 @@
                                 </a>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
+                            <div class="search_bar"><?php get_search_form(); ?></div>
                             <ul class="nav nav-pills pull-right navbar-nav">
                                 <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
                             </ul>
