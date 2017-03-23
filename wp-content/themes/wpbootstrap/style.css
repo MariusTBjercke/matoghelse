@@ -346,7 +346,7 @@ header.shrink .search_bar {
 }
 
 .test {
-
+    z-index: 0;
 }
 
 /* Change color of dropdown links on hover */
