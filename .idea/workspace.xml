@@ -71,8 +71,8 @@
       <file leaf-file-name="nyheter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+            <state relative-caret-position="946">
+              <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -315,7 +315,7 @@
       <workItem from="1490252639066" duration="3674000" />
       <workItem from="1490258271978" duration="8000" />
       <workItem from="1490275887726" duration="61000" />
-      <workItem from="1490277012349" duration="1074000" />
+      <workItem from="1490277012349" duration="1152000" />
     </task>
     <task id="LOCAL-00001" summary="Updated GIT">
       <created>1490082469051</created>
@@ -429,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490278075578</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="2">
+      <created>1490278089679</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1490278089679</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95782000" />
+    <option name="totallyTimeSpent" value="95860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="3218" height="1768" extended-state="6" />
@@ -482,7 +489,8 @@
     <MESSAGE value="test3" />
     <MESSAGE value="Reverted changes" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs</wordpressPath>
@@ -809,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        <state relative-caret-position="946">
+          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding />
         </state>
       </provider>
