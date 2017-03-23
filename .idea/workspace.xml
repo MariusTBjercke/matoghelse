@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c91fa34d-7121-42c8-b63c-28906b0aa815" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="345" column="1" lean-forward="false" selection-start-line="345" selection-start-column="1" selection-end-line="345" selection-end-column="1" />
+            <state relative-caret-position="196">
+              <caret line="332" column="16" lean-forward="true" selection-start-line="332" selection-start-column="16" selection-end-line="332" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -68,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nyheter.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nyheter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            <state relative-caret-position="858">
+              <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -145,7 +145,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/bootstrap/js/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/js/script.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/omoss.php" />
         <option value="$PROJECT_DIR$/readme.html" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-add/public/assets/css/form-style.css" />
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php" />
       </list>
     </option>
   </component>
@@ -315,7 +315,7 @@
       <workItem from="1490252639066" duration="3674000" />
       <workItem from="1490258271978" duration="8000" />
       <workItem from="1490275887726" duration="61000" />
-      <workItem from="1490277012349" duration="417000" />
+      <workItem from="1490277012349" duration="1058000" />
     </task>
     <task id="LOCAL-00001" summary="Updated GIT">
       <created>1490082469051</created>
@@ -415,11 +415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490277393822</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Reverted changes">
+      <created>1490277444470</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1490277444470</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95125000" />
+    <option name="totallyTimeSpent" value="95766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="3218" height="1768" extended-state="6" />
@@ -466,7 +473,8 @@
     <MESSAGE value="test1" />
     <MESSAGE value="test2" />
     <MESSAGE value="test3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test3" />
+    <MESSAGE value="Reverted changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverted changes" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs</wordpressPath>
@@ -751,14 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -793,8 +793,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="345" column="1" lean-forward="false" selection-start-line="345" selection-start-column="1" selection-end-line="345" selection-end-column="1" />
+        <state relative-caret-position="196">
+          <caret line="332" column="16" lean-forward="true" selection-start-line="332" selection-start-column="16" selection-end-line="332" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/nyheter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
           <folding />
         </state>
       </provider>
