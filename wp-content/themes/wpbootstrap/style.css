@@ -377,3 +377,12 @@ header.shrink .search_bar {
 .round {
     border-radius: 10px;
 }
+
+.navbar-nav .active a {
+    background: none !important;
+    border-bottom: 3px solid #f7941e;
+}
+
+.navbar-nav a {
+    font-size: 1.1em;
+}

@@ -5,6 +5,22 @@ function register_header_menu() {
 }
 add_action( 'init', 'register_header_menu' );
 
+// Register Custom Navigation Walker
+require_once('wp-bootstrap-navwalker.php');
+
+// Bootstrap navigation
+function bootstrap_nav()
+{
+    wp_nav_menu( array(
+            'theme_location'    => 'header-menu',
+            'depth'             => 2,
+            'container'         => 'false',
+            'menu_class'        => 'nav navbar-nav',
+            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+            'walker'            => new wp_bootstrap_navwalker())
+    );
+}
+
 function wpbootstrap_scripts_with_jquery()
 {
     // Register the script like this for a theme:

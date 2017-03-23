@@ -44,9 +44,9 @@
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <div class="search_bar"><?php get_search_form(); ?></div>
-                            <ul class="nav nav-pills pull-right navbar-nav">
-                                <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
-                            </ul>
+                            <div class="pull-right">
+                            <?php bootstrap_nav(); ?>
+                            </div>
                         </div>
                     </div>
             </nav>
