@@ -12,8 +12,6 @@
             <div class="pull-right">
                 <div class="social">
                     <a href="#"><div class="facebook icon"></div></a>
-                    <a href="#"><div class="twitter icon"></div></a>
-                    <a href="#"><div class="linkedin icon"></div></a>
                 </div>
             </div>
         </div>

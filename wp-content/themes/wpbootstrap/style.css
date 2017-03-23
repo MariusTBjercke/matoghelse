@@ -80,6 +80,10 @@ input[type=submit] {
     color: #f7941e;
 }
 
+.copyright2 a:hover {
+    text-decoration: none!important;
+}
+
 .footer-bottom {
     padding-bottom: 0px;
     width: 100%;
@@ -255,7 +259,7 @@ header.shrink .social {
 }
 
 .icon {
-    opacity: 0.6;
+    opacity: 0.8;
     display: inline-block;
 }
 
@@ -367,5 +371,9 @@ header.shrink .search_bar {
 }
 
 .news-area h2 {
-    font-size: 1.3em !important;
+    font-size: 1.5em;
+}
+
+.round {
+    border-radius: 10px;
 }

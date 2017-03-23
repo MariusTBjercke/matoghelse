@@ -64,7 +64,7 @@
         <div class="container">
             <h1><?php
                 if (is_single()) {} else {
-                    echo apply_filters( 'the_title', get_the_title( get_option( 'page_for_posts' ) ) );
+                    echo apply_filters('the_title', get_the_title());
                 } ?></h1>
         </div>
     </div>
