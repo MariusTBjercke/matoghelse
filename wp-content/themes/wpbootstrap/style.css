@@ -365,3 +365,7 @@ header.shrink .search_bar {
 .news-area {
     padding-bottom: 50px;
 }
+
+.news-area h2 {
+    font-size: 1.3em !important;
+}

@@ -62,7 +62,10 @@
 <div class="jumbotron">
     <div class="black_opa_bar">
         <div class="container">
-            <h1><?php echo apply_filters( 'the_title', get_the_title( get_option( 'page_for_posts' ) ) ); ?></h1>
+            <h1><?php
+                if (is_single()) {} else {
+                    echo apply_filters( 'the_title', get_the_title( get_option( 'page_for_posts' ) ) );
+                } ?></h1>
         </div>
     </div>
 </div>
