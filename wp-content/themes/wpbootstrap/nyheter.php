@@ -36,11 +36,3 @@ $myposts = get_posts( $args );
         ?>
     </div>
 </div>
-
-legger
-
-på
-
-test
-
-her
