@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="Bjercke Media" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="home.bjerckemedia.no" autoUploadExternalChanges="true">
     <serverData>
       <paths name="Bjercke Media">
+        <serverdata>
+          <mappings>
+            <mapping deploy="matoghelse" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="home.bjerckemedia.no">
         <serverdata>
           <mappings>
             <mapping deploy="matoghelse" local="$PROJECT_DIR$" web="/" />
