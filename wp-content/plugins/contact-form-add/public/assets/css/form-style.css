@@ -234,6 +234,9 @@ http://yuilibrary.com/license/
 
 .smform-submitbtn-cont input{
     margin-top: 15px;
+    background-color: #F7941E;
+    color: white;
+    padding: 10px 20px 10px 20px;
 }
 
 .smInlineForm span {
