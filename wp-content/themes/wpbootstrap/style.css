@@ -386,3 +386,12 @@ header.shrink .search_bar {
 .navbar-nav a {
     font-size: 1.1em;
 }
+
+@media screen and (max-width: 1190px) {
+    .navbar-nav a {
+        font-size: 0.9em;
+    }
+    .navbar-nav>li>a {
+        padding: 5px 9px;
+    }
+}

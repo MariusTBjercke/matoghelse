@@ -4,7 +4,7 @@ get_header();
 <?php
 if (get_the_title() === 'Nyheter') {
     include('nyheter.php');
-} else if (get_the_title() === 'Om oss') {
+} else if (get_the_title() === 'Bli medlem') {
     ?>
     <div class="container">
         <div class="row">
